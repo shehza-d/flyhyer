@@ -1,36 +1,41 @@
-/* @font-face {
+@font-face {
     font-family: 'Helvetica Now Display';
-    src: url('./fonts/HelveticaNowDisplay-Black.ttf'); */
+    src: url('./fonts/HelveticaNowDisplay-Black.ttf');}
 * {
 	margin: 0;
 	padding: 0;
-	/* font-family: HelveticaNowDisplay-Black.ttf;
-	font: 15px Helvetica, Roboto, Arial, sans-serif; */
+	font-family: "Helvetica Now Display";
 }
 body { background-color: #DFDEDF;}
 
 nav {
 	display: flex;
+	/* flex-direction: row; */
 	background-image: url("./imgs/plan-ss-gimped.png");
-	/* background-size: cover; */
-	height: 530px;
+	background-size: cover;
 	justify-content: space-between;
 }
 
 .hyerlogo {
 	height: 180px;
 	margin: 40px;
+	padding-bottom: 530px;
+	
 }
 
-nav ul {
+nav>ul {
 	display: flex;
-	text-decoration: none;
+	/* flex-direction: row;
+	text-decoration: none; */
 	list-style: none;
-	flex-direction: column;
+	/* flex-direction: column; */
 	margin-right: 30px;
+	margin-top: 30px;
+	
 }
 
 nav ul li {
+	/* flex-direction: row; */
 	text-decoration: none;
 	list-style: none;
 	padding: 10px;
@@ -44,11 +49,19 @@ nav ul li button {
 	border-radius: 99%;
 	padding: 20px;
 }
-
 nav ul li button:hover {
 	background-color: #303131;
 }
-
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+nav ul li a:hover {
+	/* color: var(--hover-color: green); */
+	color: blue;
+	text-decoration: underline;
+	animation-delay: 0.5s;
+}
 
 
 
@@ -57,9 +70,31 @@ nav ul li button:hover {
 	width: 20px;
 }
 .p {
-	margin-top: 200px;
+	/* margin-top: 200px; */
 	margin-left: 50px;
 }
 .p2 {
 	margin-top: 20px;
 	margin-left: 50px;}
+
+.midbox {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.blackbutton {
+	display: flex;
+	margin: 20px;
+	/* justify-content: flex-end; */
+	/* margin-right: 60px; */
+	/* padding: ; */
+}
+.buttonn {
+	margin: 5px;
+	padding: 12px;
+	color: white;
+	background-color: black;
+	border-radius: 50px;
+	border-style: none;
+	}
