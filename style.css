@@ -19,7 +19,7 @@ nav {
 .hyerlogo {
 	height: 180px;
 	margin: 40px;
-	padding-bottom: 530px;
+	padding-bottom: 350px;
 	
 }
 
@@ -72,10 +72,15 @@ nav ul li a:hover {
 .p {
 	/* margin-top: 200px; */
 	margin-left: 50px;
+	font-size: 23px;
+	line-height: 36px;
+
 }
 .p2 {
 	margin-top: 20px;
-	margin-left: 50px;}
+	margin-left: 50px;
+font-size: 20px;
+}
 
 .midbox {
 	display: flex;
@@ -98,3 +103,58 @@ nav ul li a:hover {
 	border-radius: 50px;
 	border-style: none;
 	}
+
+.boldflextext {
+	/* text-decoration: overline; */
+	display: flex;
+	margin-top: 35px;
+    margin-left: 40%;
+	margin-right: 70px;
+	font-size: 30px;
+	/* font-size: 57px;
+	line-height: 57px; */
+}
+
+.ul {
+	display: grid;
+	list-style: none;
+	grid-template-columns: 20vw 20vw;
+    grid-column-gap: 4vw;
+     /* grid-template-columns: 2;
+	grid-template-rows: 2  */
+	margin-top: 30px;
+	margin-left: 35%;
+	/* margin-right: 30%; */
+}
+
+.ul>li {
+	border-top: 2px solid #303131;
+}
+.ul>li>h4 {
+	font-size: 15px;
+	padding: 10px;
+}
+.ul>li>p {
+	font-size: 13px;
+	color: gray;
+}
+
+.threeimgcontainer{
+	display: flex;
+	/* border: 3px solid red; */
+    margin-top: 100px;
+}
+.d1 {
+	width: 350px;
+	background-color: #151623;
+}
+.d1>h2 {
+	/* position: absolute; */
+	top: 28px;
+	left: 26px;
+	color: blue;
+}
+.d3{
+	width: 350px;
+	/* background-color: ; */
+}
