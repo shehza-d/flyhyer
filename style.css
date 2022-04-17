@@ -230,8 +230,24 @@ font-size: 20px;
     width: 50%;
 }
 .textbgpurple>h1{
+	margin-top: 50px;
+	margin-left: 55px;
 	color: white;
 }
 .textbgpurple>h5{
+	margin-top: 350px;
+	margin-left: 55px;
+	margin-right: 50px;
 	color: white;
+}
+
+.bighyer {
+	margin-top: 50px;
+	margin-left: 50px;
+	font-size: 167px;
+	color: 	#000d10;
+}
+
+.complexlist{
+	display: flex;
 }
