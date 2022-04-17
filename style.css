@@ -1,12 +1,14 @@
 @font-face {
     font-family: 'Helvetica Now Display';
-    src: url('./fonts/HelveticaNowDisplay-Black.ttf');}
+    src: url('./fonts/HelveticaNowDisplay-Black.ttf');
+	scr: url('./fonts/HelveticaNowDisplay-Regular.ttf')
+}
 * {
 	margin: 0;
 	padding: 0;
 	font-family: "Helvetica Now Display";
 }
-body { background-color: #DFDEDF;}
+body { background-color: #ffffff;}
 
 nav {
 	display: flex;
@@ -72,7 +74,7 @@ nav ul li a:hover {
 .p {
 	/* margin-top: 200px; */
 	margin-left: 50px;
-	font-size: 23px;
+	font-size: 43px;
 	line-height: 36px;
 
 }
@@ -196,9 +198,40 @@ font-size: 20px;
 .d2 {
 	width: 33%;
 }
-
-
 .d3{
 	width: 33%;
 	/* background-color: ; */
+}
+
+.popdestinationh2{
+	font-size: 50px;
+	font-weight: 400;
+	margin-top: 110px;
+	margin-left: 100px;
+	margin-bottom: 30px;
+}
+.barcelonaimg{
+	margin-left: 100px;
+	border-radius: 0 0  55px 0;
+	margin-right: 20px;
+}
+
+
+.purple2{
+     display: flex;
+    margin-top: 150px;   
+}
+.handimg{
+	background-color: #0F0F1C;
+   width: 50%;
+}
+.textbgpurple{
+ background-color: 	#151623;
+    width: 50%;
+}
+.textbgpurple>h1{
+	color: white;
+}
+.textbgpurple>h5{
+	color: white;
 }
