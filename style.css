@@ -58,7 +58,7 @@ nav ul li a {
 }
 nav ul li a:hover {
 	/* color: var(--hover-color: green); */
-	color: blue;
+	/* color: blue; */
 	text-decoration: underline;
 	animation-delay: 0.5s;
 }
@@ -103,6 +103,12 @@ font-size: 20px;
 	border-radius: 50px;
 	border-style: none;
 	}
+.buttonn:hover {
+/* background-color: rgb(27, 26, 26); */
+	color: #cdcacd;
+}
+
+
 
 .boldflextext {
 	/* text-decoration: overline; */
@@ -145,16 +151,54 @@ font-size: 20px;
     margin-top: 100px;
 }
 .d1 {
-	width: 350px;
+	width: 33%;
 	background-color: #151623;
+
 }
 .d1>h2 {
+	margin-top: 40px;
+	margin-left: 50px;
+	font-size: 45px;
 	/* position: absolute; */
 	top: 28px;
 	left: 26px;
-	color: blue;
+	color: white;
 }
+.d1>h5 {
+	margin-top: 270px;
+    margin-left: 50px;
+	font-weight: 400;
+	color: white;
+}
+.d1>button{
+	margin-top: 30px;
+	margin-left: 50px;
+   padding: 8px;
+   border: 1px solid #DFDEDF;
+   background-color: #151623;
+   border-radius: 50px;
+}
+.d1>a {
+	/* padding: 16px; */
+	text-decoration: none;
+	/* color: red; */
+}
+.d1>button>a{
+	color: white;
+	text-decoration: none;
+}
+.d1>button>a:hover{
+	background-color: white;
+	color: #151623;
+}
+
+
+.d2 {
+	width: 33%;
+}
+
+
 .d3{
-	width: 350px;
+	width: 33%;
 	/* background-color: ; */
 }
