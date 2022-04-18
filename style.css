@@ -189,8 +189,11 @@ font-size: 20px;
 	color: white;
 	text-decoration: none;
 }
-.d1>button>a:hover{
+.d1>button:hover{
 	background-color: white;
+	color: #151623;
+}
+.d1>button>a:hover{
 	color: #151623;
 }
 
@@ -270,9 +273,8 @@ font-size: 20px;
 }
 
 .largetext {
-	border: 2px solid red;
 	width: 100%;
-	height: 700px;
+	height: 600px;
 }
 .largetext>h2{
 	margin-top: 300px;
@@ -282,16 +284,16 @@ font-size: 20px;
 }
 .largetext>h1{
 text-align: center;
-font-size: 150px;
+font-size: 120px;
 /* display: inline-block; */
 position: relative;
 }
 .largetext>h1:after{
 	content: '';
 	position: absolute;
-	width: 100%;
+	width: 80%;
 	transform: scaleX(0);
-	height: 2px;
+	height: 4px;
 	bottom: 0;
 	left: 0;
 	background-color: #000000;
@@ -301,4 +303,9 @@ position: relative;
 .largetext>h1:hover:after{
 	transform: scaleX(1);
 	transform-origin: bottom left;
+}
+.footer{
+	height: 500px;
+background-color:#010D10;
+width: 100%;
 }
